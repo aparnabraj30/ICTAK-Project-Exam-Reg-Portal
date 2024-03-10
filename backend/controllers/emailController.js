@@ -6,8 +6,8 @@ const sendResultEmail = async (receiverEmail, fileContent) => {
       const mailOptions = {
         from: process.env.EMAIL_USER,
         to: receiverEmail,
-        subject: 'Your Result',
-        text: 'Here is your result!',
+        subject: 'Result',
+        text: 'Result of the batch',
         attachments: [
           {
             filename: 'result.pdf',
