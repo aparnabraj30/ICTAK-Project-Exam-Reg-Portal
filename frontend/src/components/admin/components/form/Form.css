@@ -1,0 +1,157 @@
+.Form {
+    margin-top: -3%;
+    margin-left: 70px;
+    /* margin: 2%; */
+    padding: 3% 250px;
+    font-size: large;
+    /* text-align: center; */
+    align-items: center;
+  }
+  .form{
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+    margin-left: -110px;
+    margin-right: -40px;
+    padding-left: 150px;
+    /* font-family: 'Times New Roman', Times, serif; */
+  }
+  .heading{
+    /* padding-left: 200px; */
+    margin-top: 20px;
+    padding-top: 25px;
+    margin-bottom: 40px;
+    font-size: 18px;
+  }
+  .form-label {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    font-weight: bold;
+  }
+  .form-control {
+    text-align: left !important;
+    resize: vertical;
+    display: block;
+    width: 70%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* border-radius: 0.375rem; */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  }
+  
+  .form-group {
+    /* margin-top: 30px; */
+    margin-bottom: 1rem;
+  }
+  
+  .form-select {
+    display: block;
+    width: 74%;
+    padding: 0.375rem 2.25rem 0.375rem 0.75rem;
+    -moz-padding-start: calc(0.75rem - 3px);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill='none' stroke='%23343a40' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='m2 5 6 6 6-6'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 0.75rem center;
+    background-size: 16px 12px;
+    border: 1px solid #ced4da;
+    border-radius: 0.375rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+  }
+  
+  .gender-options {
+    padding-top: 8px;
+    display: flex;
+    gap: 100px; 
+    padding-right: 50px;/* Adjust the value as needed for your desired spacing */
+  }
+  
+  .gender-option {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .error-message {
+    color: red;
+    font-size: 15px;
+  }
+  .btn {
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1eb2a6;
+    border-color: #1eb2a6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 74%;
+    height: 50px;
+    font-size: 22px;
+    margin-bottom: 50px;
+  }
+  
+
+
+
+  /* pop up */
+  
+
+
+  .popup-modal {
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 500px;
+    /* border: solid black; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px; 
+    position: fixed;
+    padding-top: 70px;
+    padding-left: 100px;
+    top: 45%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    border-radius: 20px;
+  }
+  
+  .popup-content {
+    text-align: center;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 200px; /* Set a maximum width for the box */
+    width: 80%; /* Make the box responsive */
+  }
+  
+  .popup-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .form.fade-out {
+    opacity: 0.5; /* Adjust the opacity as needed */
+    transition: opacity 0.5s ease; /* Adjust the transition duration as needed */
+    pointer-events: none; /* Disable interactions with the form during fade */
+  }

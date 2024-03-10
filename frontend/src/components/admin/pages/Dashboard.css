@@ -1,0 +1,17 @@
+
+.cardContainer {
+    width: 300px;
+    height: 150px;
+    background-color: #1eb2a6;
+    border: solid black;
+    /* color: ; */
+  }
+  
+  .cardTitle {
+    margin-bottom: 16px;
+  }
+  
+  .cardActions {
+    display: flex;
+    justify-content: space-between;
+  }

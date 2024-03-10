@@ -1,0 +1,21 @@
+.even-row {
+    background-color: #d3d9d4;
+  }
+  
+  .odd-row {
+    background-color: #ffffff; /* Set the background color for odd rows */
+  }
+  
+
+  .custom-header {
+    background-color: #0d2426 !important; /* Header color */
+    color: #fff !important; /* Text color */
+  }
+  
+  MuiTableRow-root:nth-of-type(even) {
+    background-color: #d3d9d4 !important; /* Even row color */
+  }
+  
+  MuiTableRow-root:nth-of-type(odd) {
+    background-color: #fff !important; /* Odd row color */
+  }
