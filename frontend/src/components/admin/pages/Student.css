@@ -12,10 +12,4 @@
     color: #fff !important; /* Text color */
   }
   
-  MuiTableRow-root:nth-of-type(even) {
-    background-color: #d3d9d4 !important; /* Even row color */
-  }
   
-  MuiTableRow-root:nth-of-type(odd) {
-    background-color: #fff !important; /* Odd row color */
-  }

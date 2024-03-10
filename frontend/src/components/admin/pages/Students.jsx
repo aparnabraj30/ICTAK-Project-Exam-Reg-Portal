@@ -51,7 +51,7 @@ const StudentsList = () => {
         console.log('Batch Name:', batchName);
         const fetchStudents = async () => {
             try {
-                const response = await axios.get(`http://localhost:8000/api/students/${batchName}`);
+                const response = await axios.get(`https://ictak-project-exam-reg-portal-2.onrender.com/api/students/${batchName}`);
                 console.log('Fetched students:', response.data); 
                 setStudents(response.data);
             } catch (error) {
