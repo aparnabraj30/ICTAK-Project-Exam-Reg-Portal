@@ -59,10 +59,10 @@ const ADashboard = () => {
 
     const fetchBatches = async () => {
         try {
-          const response = await axios.get("https://ictak-project-exam-reg-portal-2.onrender.com/api/batches");
+          const response = await axios.get("https://ictak-project-exam-reg-portal-6.onrender.com/api/batches");
           const updatedBatches = await Promise.all(
             response.data.map(async (batch) => {
-              const studentsResponse = await axios.get(`https://ictak-project-exam-reg-portal-2.onrender.com/api/students/${encodeURIComponent(batch.title)}`);
+              const studentsResponse = await axios.get(`https://ictak-project-exam-reg-portal-6.onrender.com/api/students/${encodeURIComponent(batch.title)}`);
               batch.students = studentsResponse.data;
               return batch;
             })
