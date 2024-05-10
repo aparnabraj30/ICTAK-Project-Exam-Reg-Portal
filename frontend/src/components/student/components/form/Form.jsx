@@ -98,7 +98,7 @@ function Form() {
 
     if (isValid) {
         try {
-            const response = await axios.post("https://ictak-project-exam-reg-portal-2.onrender.com/api/students/register", {
+            const response = await axios.post("https://ictak-project-exam-reg-portal-6.onrender.com/api/students/register", {
               ...formData,
               batch: formData.batch,
           });
