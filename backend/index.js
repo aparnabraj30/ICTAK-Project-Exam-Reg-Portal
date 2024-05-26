@@ -3,7 +3,7 @@ const morgan = require('morgan');
 const server = express();
 const cors = require('cors');
 const batches = require("./data/batches");
-const connectDB = require('./config.js/db');
+const connectDB = require('./config/db');
 const multer = require('multer');
 const nodemailer = require('nodemailer');
 
