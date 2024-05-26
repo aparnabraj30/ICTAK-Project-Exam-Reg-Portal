@@ -64,7 +64,7 @@ const handleSendResult = async () => {
         return;
       }
   
-      const result = await axios.post('https://ictak-project-exam-reg-portal-2.onrender.com/api/email/send-result', {
+      const result = await axios.post('https://ictak-project-exam-reg-portal-6.onrender.com/api/email/send-result', {
         receiverEmail,
         fileContent: file.content, // Use the base64-encoded content
       });
@@ -87,7 +87,7 @@ const handleSendResult = async () => {
       }
   
       // Assuming you want to send the URL to the server
-      const result = await axios.post('https://ictak-project-exam-reg-portal-2.onrender.com/api/url/submit', {
+      const result = await axios.post('https://ictak-project-exam-reg-portal-6.onrender.com/api/url/submit', {
         url,
       });
   
